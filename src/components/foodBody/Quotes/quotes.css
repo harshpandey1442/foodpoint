@@ -1,0 +1,58 @@
+.quotes_container  {
+  position: absolute;
+  margin: 20px 0px 0px 35%;
+  height: 180px;
+  width: 560px;
+  background: rgba(14, 14, 16, 0.7);;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px 8px #141212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.quotes_content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: center;
+  color: aliceblue;
+  padding: 0px;
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  font-weight: 900;
+  text-align: center;
+}
+
+.quotes_content >p {
+  text-align: center;
+}
+
+@media screen and (max-width: 920px) {
+  .quotes_container  {
+    margin: 20px 0px 0px 20%;
+  }
+}
+
+@media screen and (max-width: 726px) {
+  .quotes_container  {
+    margin: 20px 0px 0px 15%;
+    height: 150px;
+    width: 300px;
+  }
+  
+  h2 {
+    margin-top: 10%;
+    font-size: 1rem;
+  }
+  
+  .quotes_content >p {
+    font-size: 11px;
+    margin: 1px;
+  }
+}
